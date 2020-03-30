@@ -77,3 +77,4 @@ def write_settings():
 def start_tor():
  print("Starting tor...")
  system('service tor restart && tor')
+main()
